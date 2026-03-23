@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45d11fe1-b57d-4d01-b548-4d071b6c9df2" name="Changes" comment="changer directory">
-      <change beforePath="$PROJECT_DIR$/src/tests/TestOuvrage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/TestOuvrage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +27,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/OlivierLandry40/TP2-OL-ML&quot;,
-    &quot;accountId&quot;: &quot;00af803c-d0ac-40c5-9976-b81356610e29&quot;
+    &quot;url&quot;: &quot;https://github.com/OlivierLandry40/TP2-OL-ML.git&quot;,
+    &quot;accountId&quot;: &quot;fb5e58c9-f612-4cc1-84bd-395d2965cf9c&quot;
   }
 }</component>
   <component name="ProblemsViewState">
@@ -42,18 +42,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.TestOuvrage.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.TestOuvrage.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/2538953/Documents/GitHub/TP2-OL-ML",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\2490675\IdeaProjects\TP2-OL-ML" />
@@ -95,6 +99,8 @@
       <option name="presentableId" value="Default" />
       <updated>1774280533048</updated>
       <workItem from="1774280534681" duration="9945000" />
+      <workItem from="1774291032309" duration="281000" />
+      <workItem from="1774291352576" duration="52000" />
     </task>
     <task id="LOCAL-00001" summary="creer le setCode pour pour avoir comme condition avoir 3 majuscules">
       <option name="closed" value="true" />
@@ -155,7 +161,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
