@@ -28,6 +28,7 @@ public class TestOuvrage {
 
         Pays canada = new Pays("Canada", "CAN");
         Pays etatsunis = new Pays("États-Unis", "USA");
+        Pays France = new Pays("France", "FR");
 
         //Deux auteurs deja prets pour les tests...
         Auteur albertine = new Auteur("Albertine", "Tremblay", canada);
@@ -97,20 +98,51 @@ public class TestOuvrage {
 
 
 
-//    private void testTrouver() {
-//        Librairie bibliotheque = new Librairie();
-//        Auteur john = bibliotheque.getAuteurs().get(1);
-//
-//       System.out.println("\n-----Test de votre méthode trouverOuvrage-----------");
-//        List<Ouvrage> resultat = bibliotheque.trouverOuvrages(new Auteur("Albertine", "Tremblay","Etats-Unis"));
-//        System.out.println("Livres de albertine: " + resultat);
-//
-//        resultat = bibliotheque.trouverOuvrages(john);
-//        System.out.println("Livres de john: " + resultat);
-//
-//        resultat = bibliotheque.trouverOuvrages(new Auteur("Jacques", "Beaulieu", "France"));
-//        System.out.println("Livres de Jacques: " + resultat);
-//    }
+    private void testTrouver() {
+        Pays etatsunis = new Pays("États-Unis", "USA");
+        Pays France = new Pays("France", "FRA");
+
+        Librairie bibliotheque = new Librairie();
+        Auteur john = bibliotheque.getAuteurs().get(1);
+
+        System.out.println("\n-----Test de votre méthode trouverOuvrage-----------");
+        List<Ouvrage> resultat = bibliotheque.trouverOuvrages(new Auteur("Albertine", "Tremblay",etatsunis));
+        System.out.println("Livres de albertine: " + resultat);
+
+        resultat = bibliotheque.trouverOuvrages(john);
+        System.out.println("Livres de john: " + resultat);
+
+        resultat = bibliotheque.trouverOuvrages(new Auteur("Jacques", "Beaulieu", France));
+        System.out.println("Livres de Jacques: " + resultat);
+   }
+    public void testSerie(){
+
+        Pays etatsunis = new Pays("États-Unis", "USA");
+
+        Auteur king = new Auteur("Stephen", "King", etatsunis);
+
+        Ouvrage it      = new Ouvrage("Ça 1", king, Ouvrage.Format.PAPIER, null, 5);
+        Ouvrage shining = new Ouvrage("Shining", king, Ouvrage.Format.PAPIER, null, 3);
+        Ouvrage misery  = new Ouvrage("Misery", king, Ouvrage.Format.PAPIER, null, 4);
+
+        // Créer une série
+        Serie serie = new Serie("Stephen King Horreur");
+        System.out.println("Série créée : " + serie);
+
+        serie.ajouterOuvrage(it);
+        serie.ajouterOuvrage(shining);
+        serie.ajouterOuvrage(misery);
+        System.out.println("Après ajout de 3 ouvrages : " + serie);
+
+        // retire un ouvrage existant
+        boolean retire = serie.retirerOuvrage(shining);
+        System.out.println("Retrait de Shining (doit être vrai) : " + retire);
+        System.out.println("Après retrait : " + serie);
+
+
+
+    }
+
 
 }
 
