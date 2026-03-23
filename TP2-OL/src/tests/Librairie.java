@@ -2,6 +2,7 @@ package tests;
 
 import livres.Auteur;
 import livres.Ouvrage;
+import livres.Pays;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,14 +10,18 @@ import java.util.List;
 public class Librairie {
     private List<Auteur> auteurs  = new ArrayList<>();
     private List<Ouvrage> ouvrages = new ArrayList<>();
-
+/*
     public Librairie(){
         Auteur albertine = new Auteur("Albertine", "Tremblay", "Canada");
         Auteur john = new Auteur("John", "Smith", "Etats-Unis");
         Auteur jean = new Auteur("Jean", "Némarre", "Suisse");
+
+
         auteurs.add(albertine);
         auteurs.add(john);
         auteurs.add(jean);
+
+
 
         ouvrages.add(new Ouvrage("Titre 1", john));
         ouvrages.add(new Ouvrage("Titre 2", albertine));
@@ -51,4 +56,6 @@ public class Librairie {
 
         return trouves;
     }
+
+ */
 }
