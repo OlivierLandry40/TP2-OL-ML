@@ -8,19 +8,24 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Librairie {
-    private List<Auteur> auteurs  = new ArrayList<>();
+    private List<Auteur> auteurs = new ArrayList<>();
     private List<Ouvrage> ouvrages = new ArrayList<>();
-/*
-    public Librairie(){
-        Auteur albertine = new Auteur("Albertine", "Tremblay", "Canada");
-        Auteur john = new Auteur("John", "Smith", "Etats-Unis");
-        Auteur jean = new Auteur("Jean", "Némarre", "Suisse");
+
+    public Librairie() {
+
+        Pays canada = new Pays("Canada", "CAN");
+        Pays etatsunis = new Pays("États-Unis", "USA");
+        Pays suisse = new Pays("Suisse", "CHE");
+
+
+        Auteur albertine = new Auteur("Albertine", "Tremblay",canada );
+        Auteur john = new Auteur("John", "Smith", etatsunis);
+        Auteur jean = new Auteur("Jean", "Némarre", suisse);
 
 
         auteurs.add(albertine);
         auteurs.add(john);
         auteurs.add(jean);
-
 
 
         ouvrages.add(new Ouvrage("Titre 1", john));
@@ -30,8 +35,8 @@ public class Librairie {
         ouvrages.add(new Ouvrage("Titre 5", albertine));
         ouvrages.add(new Ouvrage("Titre 6", john));
         ouvrages.add(new Ouvrage("Titre 7", john));
-        ouvrages.add(new Ouvrage("Titre 8", albertine,Ouvrage.Format.VIDEO));
-        ouvrages.add(new Ouvrage("Titre 9", john,Ouvrage.Format.AUDIO));
+        ouvrages.add(new Ouvrage("Titre 8", albertine, Ouvrage.Format.VIDEO));
+        ouvrages.add(new Ouvrage("Titre 9", john, Ouvrage.Format.AUDIO));
         ouvrages.add(new Ouvrage("Titre 10", jean));
     }
 
@@ -57,5 +62,5 @@ public class Librairie {
         return trouves;
     }
 
- */
+
 }
