@@ -22,7 +22,7 @@ public static final Pays PAYS_INCONNU = new Pays("Inconnu", "ABC");
         setNom(nom);
         setPaysOrigine(paysOrigine);
     }
-
+/* commentaire */
     public Auteur() {
         this(INCONNU, INCONNU, PAYS_INCONNU);
     }
