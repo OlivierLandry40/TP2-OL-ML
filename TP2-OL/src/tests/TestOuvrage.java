@@ -6,6 +6,7 @@ import java.util.List;
 import livres.Ouvrage;
 import livres.Auteur;
 
+
 /**
  * CoursPOO 1
  *
@@ -101,7 +102,6 @@ public class TestOuvrage {
         resultat = bibliotheque.trouverOuvrages(new Auteur("Jacques", "Beaulieu", "France"));
         System.out.println("Livres de Jacques: " + resultat);
     }
-
 
 }
 
