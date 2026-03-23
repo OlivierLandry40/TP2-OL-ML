@@ -20,7 +20,9 @@ public class TestOuvrage {
     public static void main(String[] args) {
         TestOuvrage test = new TestOuvrage();
         test.testOuvrages();
-        //test.testTrouver();
+        test.testTrouver();
+        test.testSerie();
+
     }
 
 
